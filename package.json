@@ -1,19 +1,23 @@
 {
-  "name": "Express-React-Boilerplate",
+  "name": "express-react-boilerplate",
   "version": "1.0.0",
   "description": "Starter code for a new Express/Reactjs project",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"cd server && npm run start\" \"cd client && yarn start\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/bin/www",
+    "start:dev": "concurrently \"cd server && npm run start\" \"cd client && yarn start\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "cd server && npm run seed",
+    "server": "npm run start:dev --prefix server",
+    "client": "npm run start --prefix client"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PaulLNH/Express-React-Boilerplate.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Paul Laird",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PaulLNH/Express-React-Boilerplate/issues"
   },

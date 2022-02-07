@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "firstName": "Mike",
+    "lastName": "Jones",
+    "email": "mjones@fakemail.com",
+    "password": "$2a$12$yMf9aSuolNSHFShJoYuJwup7yKnrXtEY2Wai3jFhCZ8hmHsvPDYKu"
+  },
+  {
+    "id": 2,
+    "firstName": "Joe",
+    "lastName": "Rogan",
+    "email": "jr@podcast.net",
+    "password": "$2a$12$yMf9aSuolNSHFShJoYuJwup7yKnrXtEY2Wai3jFhCZ8hmHsvPDYKu"
+  },
+  {
+    "id": 3,
+    "firstName": "Dwayne",
+    "lastName": "Johnson",
+    "email": "doyousmellthat@cookingnetwork.com",
+    "password": "$2a$12$yMf9aSuolNSHFShJoYuJwup7yKnrXtEY2Wai3jFhCZ8hmHsvPDYKu"
+  }
+]
