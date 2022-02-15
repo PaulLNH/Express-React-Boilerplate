@@ -4,7 +4,7 @@
   "description": "Starter code for a new Express/Reactjs project",
   "main": "index.js",
   "scripts": {
-    "start": "node server/bin/www",
+    "start": "cd server && npm run start",
     "start:dev": "concurrently \"cd server && npm run start\" \"cd client && yarn start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "test": "echo \"Error: no test specified\" && exit 1",
