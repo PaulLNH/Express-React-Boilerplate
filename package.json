@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server/bin/www",
     "start:dev": "concurrently \"cd server && npm run start\" \"cd client && yarn start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "cd server && npm run seed",
     "server": "npm run start:dev --prefix server",
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/PaulLNH/Express-React-Boilerplate#readme",
   "dependencies": {
     "concurrently": "^7.0.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }

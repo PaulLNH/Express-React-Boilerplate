@@ -6,7 +6,7 @@ function App() {
   const [stateVariable, setStateVariable] = useState("");
 
   useEffect(() => {
-    fetch("/users")
+    fetch("/api/users")
       .then((response) => response.text())
       .then((data) => {
         console.log(data);
